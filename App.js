@@ -109,17 +109,3 @@ recognition.onnomatch = function (event) {
 recognition.onerror = function (event) {
   diagnostic.textContent = "Error occurred in recognition: " + event.error;
 };
-
-// recognition.onstart = function () {
-//   console.log("voice activated");
-// };
-
-// recognition.onresult = function (event) {
-//   const current = event.resultIndex;
-//   const transcript = event.results[current][0].transcript;
-//   content.textContent = transcript;
-// };
-
-// btn.addEventListener("click", () => {
-//   recognition.start();
-// });
